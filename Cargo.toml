@@ -1,0 +1,12 @@
+[package]
+name = "rust_os"
+version = "0.1.0"
+authors = ["James Bruska <jamesbruska@hotmail.com>"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort" # disable stack unwinding on panic
+
+[profile.release]
+panic = "abort" # disable stack unwinding on panic
